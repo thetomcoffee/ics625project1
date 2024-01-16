@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.metrostate.edu/ics625/sections"
+           xmlns:s="http://www.metrostate.edu/ics625/sections"
+           elementFormDefault="qualified">
+    
+    
+    <xs:complexType name="courseType">
+                            <xs:sequence>
+                                <xs:element name="id" type="xs:string" />
+                                <xs:element name="coursenumber" type="xs:string" />
+                                <xs:element name="title" type="xs:string" />     
+                            </xs:sequence>
+                        </xs:complexType>
+
+    <xs:complexType name="instructorType">
+        <xs:sequence>
+            <xs:element name="firstname" type="xs:string" />
+            <xs:element name="lastname" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="dateRangeType">
+                            <xs:sequence>
+                                <xs:element name="startdate" type="xs:string" />
+                                <xs:element name="enddate" type="xs:string" />
+                            </xs:sequence>
+    </xs:complexType>
+        
+    <xs:complexType name="timesType">
+        <xs:sequence>
+                                <xs:element name="starttime" type="xs:string" />
+                                <xs:element name="endtime" type="xs:string" />
+                            </xs:sequence>
+    </xs:complexType>
+                        
+    <xs:complexType name="locationType">
+        <xs:sequence>
+            <xs:element name="building" type="xs:string" />
+            <xs:element name="room" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+    
+    <xs:complexType name="sectionType">
+		<xs:sequence>
+			<xs:element name="sectionnumber" type="xs:integer" />
+                        <xs:element name="course" type="s:courseType" />
+                        <xs:element name="instructor" type="s:instructorType" />
+                        <xs:element name="daterange" type="s:dateRangeType" />
+                        <xs:element name="times" type="s:timesType" />
+                        <xs:element name="capacity" type="xs:integer" />
+                        <xs:element name="enrolled" type="xs:integer" />
+                        <xs:element name="days">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="M"/>
+                                    <xs:enumeration value="T"/>
+                                    <xs:enumeration value="W"/>
+                                    <xs:enumeration value="R"/>
+                                    <xs:enumeration value="F"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="location" type="s:locationType" />
+                        <xs:element name="credits" type="xs:string" />
+                        <xs:element name="status">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Open"/>
+                                    <xs:enumeration value="Full"/>
+                                    <xs:enumeration value="Canceled"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+		</xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="sections">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="section" type="s:sectionType" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+        
+</xs:schema>

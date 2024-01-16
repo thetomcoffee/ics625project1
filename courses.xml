@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<s:sections 
+    xmlns="http://www.metrostate.edu/ics625/sections" 
+    xmlns:s="http://www.metrostate.edu/ics625/sections"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.metrostate.edu/ics625/sections courses.xsd" 
+>
+    <s:section>
+        <s:sectionnumber>01</s:sectionnumber>
+        <s:course>
+            <s:id>000204</s:id>
+            <s:coursenumber>ICS 140</s:coursenumber>
+            <s:title>Computational Thinking</s:title>
+        </s:course>
+        <s:instructor>
+            <s:firstname>Mousumi</s:firstname>
+            <s:lastname>Munmun</s:lastname>
+        </s:instructor>
+        <s:daterange>
+            <s:startdate>8/21/2023</s:startdate>
+            <s:enddate>12/04/2023</s:enddate>
+        </s:daterange>
+        <s:times>
+            <s:starttime>1:00PM</s:starttime>
+            <s:endtime>4:20PM</s:endtime>
+        </s:times>
+        <s:capacity>32</s:capacity>
+        <s:enrolled>31</s:enrolled>
+        <s:days>M</s:days>
+        <s:location>
+            <s:building>SJH</s:building>
+            <s:room>L11</s:room>
+        </s:location>
+        <s:credits>4</s:credits>
+        <s:status>Open</s:status>
+    </s:section>
+     <s:section>
+        <s:sectionnumber>02</s:sectionnumber>
+        <s:course>
+            <s:id>000205</s:id>
+            <s:coursenumber>ICS 140</s:coursenumber>
+            <s:title>Computational Thinking</s:title>
+        </s:course>
+        <s:instructor>
+            <s:firstname>Farris</s:firstname>
+            <s:lastname>Hassan</s:lastname>
+        </s:instructor>
+        <s:daterange>
+            <s:startdate>8/22/2023</s:startdate>
+            <s:enddate>11/28/2023</s:enddate>
+        </s:daterange>
+        <s:times>
+            <s:starttime>6:00PM</s:starttime>
+            <s:endtime>9:20PM</s:endtime>
+        </s:times>
+        <s:capacity>32</s:capacity>
+        <s:enrolled>29</s:enrolled>
+        <s:days>T</s:days>
+        <s:location>
+            <s:building>SJH</s:building>
+            <s:room>L11</s:room>
+        </s:location>
+        <s:credits>4</s:credits>
+        <s:status>Open</s:status>
+    </s:section>
+     <s:section>
+        <s:sectionnumber>03</s:sectionnumber>
+        <s:course>
+            <s:id>000206</s:id>
+            <s:coursenumber>ICS 140</s:coursenumber>
+            <s:title>Computational Thinking</s:title>
+        </s:course>
+        <s:instructor>
+            <s:firstname>Aaron</s:firstname>
+            <s:lastname>Lawrence</s:lastname>
+        </s:instructor>
+        <s:daterange>
+            <s:startdate>08/23/2023</s:startdate>
+            <s:enddate>12/06/2023</s:enddate>
+        </s:daterange>
+        <s:times>
+            <s:starttime>1:00PM</s:starttime>
+            <s:endtime>4:20PM</s:endtime>
+        </s:times>
+        <s:capacity>32</s:capacity>
+        <s:enrolled>31</s:enrolled>
+        <s:days>W</s:days>
+        <s:location>
+            <s:building>SJH</s:building>
+            <s:room>L11</s:room>
+        </s:location>
+        <s:credits>4</s:credits>
+        <s:status>Open</s:status>
+    </s:section>
+     <s:section>
+        <s:sectionnumber>04</s:sectionnumber>
+        <s:course>
+            <s:id>001080</s:id>
+            <s:coursenumber>ICS 140</s:coursenumber>
+            <s:title>Computational Thinking</s:title>
+        </s:course>
+        <s:instructor>
+            <s:firstname>Aaron</s:firstname>
+            <s:lastname>Lawrence</s:lastname>
+        </s:instructor>
+        <s:daterange>
+            <s:startdate>8/22/2023</s:startdate>
+            <s:enddate>11/28/2023</s:enddate>
+        </s:daterange>
+        <s:times>
+            <s:starttime>6:00PM</s:starttime>
+            <s:endtime>9:20PM</s:endtime>
+        </s:times>
+        <s:capacity>24</s:capacity>
+        <s:enrolled>23</s:enrolled>
+        <s:days>T</s:days>
+        <s:location>
+            <s:building>LIB</s:building>
+            <s:room>312</s:room>
+        </s:location>
+        <s:credits>4</s:credits>
+        <s:status>Open</s:status>
+    </s:section>
+     <s:section>
+        <s:sectionnumber>01</s:sectionnumber>
+        <s:course>
+            <s:id>000207</s:id>
+            <s:coursenumber>ICS 141</s:coursenumber>
+            <s:title>ProblemSolving/Programming</s:title>
+        </s:course>
+        <s:instructor>
+            <s:firstname>Cheng</s:firstname>
+            <s:lastname>Thao</s:lastname>
+        </s:instructor>
+        <s:daterange>
+            <s:startdate>08/21/2023</s:startdate>
+            <s:enddate>12/04/2023</s:enddate>
+        </s:daterange>
+        <s:times>
+            <s:starttime>1:00PM</s:starttime>
+            <s:endtime>4:20PM</s:endtime>
+        </s:times>
+        <s:capacity>32</s:capacity>
+        <s:enrolled>27</s:enrolled>
+        <s:days>M</s:days>
+        <s:location>
+            <s:building>SEC</s:building>
+            <s:room>121</s:room>
+        </s:location>
+        <s:credits>4</s:credits>
+        <s:status>Open</s:status>
+    </s:section>
+     <s:section>
+        <s:sectionnumber>02</s:sectionnumber>
+        <s:course>
+            <s:id>000208</s:id>
+            <s:coursenumber>ICS 141</s:coursenumber>
+            <s:title>ProblemSolving/Programming</s:title>
+        </s:course>
+        <s:instructor>
+            <s:firstname>Charles</s:firstname>
+            <s:lastname>Addo-Quaye</s:lastname>
+        </s:instructor>
+        <s:daterange>
+            <s:startdate>08/22/2023</s:startdate>
+            <s:enddate>11/28/2023</s:enddate>
+        </s:daterange>
+        <s:times>
+            <s:starttime>6:00PM</s:starttime>
+            <s:endtime>9:20PM</s:endtime>
+        </s:times>
+        <s:capacity>32</s:capacity>
+        <s:enrolled>26</s:enrolled>
+        <s:days>T</s:days>
+        <s:location>
+            <s:building>LIB</s:building>
+            <s:room>321</s:room>
+        </s:location>
+        <s:credits>4</s:credits>
+        <s:status>Open</s:status>
+    </s:section>
+</s:sections>
+
